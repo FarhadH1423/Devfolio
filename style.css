@@ -55,10 +55,27 @@ h2{
     padding-right: 20px;
     border-radius: 10px;
     box-shadow: 10px 10px 40px gray;
+    
 }
 
 .experiences{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+
+#full-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#baby-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(red, rgb(102, 2, 2));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
